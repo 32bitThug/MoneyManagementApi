@@ -16,5 +16,5 @@ public class AuthenticationResponse {
 	private String token;
 	private Long userId;
 	private Date expirationDate;
-
+	private String error;
 }
