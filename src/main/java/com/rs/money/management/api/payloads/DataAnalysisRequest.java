@@ -16,12 +16,4 @@ public class DataAnalysisRequest {
 	@JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss")
 	private Date date;
 
-	public Date getDate() {
-		return date;
-	}
-
-	public void setDate(Date date) {
-		this.date = date;
-	}
-
 }
